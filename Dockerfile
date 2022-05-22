@@ -3,7 +3,7 @@ FROM python:3.9-alpine
 # Set work directory
 WORKDIR /opt/fetcher
 
-# Install requirements and create symbolyc link to the future script
+# Install requirements and create symbolic link to the future script
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt; \
     ln -s /opt/fetcher/fetcher.py /usr/sbin/fetcher
