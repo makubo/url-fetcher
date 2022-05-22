@@ -47,7 +47,7 @@ To use script from cli, please prepare a development environment.
 - Fetch site
 
 ```bash
-fetcher https://www.google.com/ https://autify.com
+./fetcher https://www.google.com/ https://autify.com
 ```
 
 > Script will create `fetched_data` directory inside the project root
@@ -55,7 +55,7 @@ fetcher https://www.google.com/ https://autify.com
 - Show metadata
 
 ```bash
-src/fetcher.py --metadata https://www.google.com/ https://autify.com
+./fetcher --metadata https://www.google.com/ https://autify.com
 ```
 
 ### Docker
