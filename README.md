@@ -109,3 +109,7 @@ Site: https://www.google.com/
  link_count: 17
  script_count: 8
 ```
+
+## Extra
+
+To achieve the extra I would use html parsing python library for example "Beautiful Soup".
